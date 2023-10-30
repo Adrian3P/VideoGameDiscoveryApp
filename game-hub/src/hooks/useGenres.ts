@@ -3,7 +3,7 @@ import genres from "../data/genres";
 import APIClient from "../services/api-client";
 import { FetchResponse } from "../services/api-client";
 
-const apiClient = new APIClient<Genre>('/genres')
+const apiClient = new APIClient<Genre>("/genres");
 
 export interface Genre {
   id: number;
